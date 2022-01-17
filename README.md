@@ -48,19 +48,19 @@ de la aplicación esta basada en OAuth 2.0 con JwT (Json Web Token).
 
 Una vez obtenemos el access_token en el campo Auth ponemos en el type Bearer Token y completamos el campo token.
 
-## Get lista de cosas sin ningún rol ni autentificación
+## Get lista de películas mejor valoradas sin ningún rol ni autentificación
 
 ### Request
 
 `GET localhost:8080/api`
 
-## Get lista de cosas con el rol User
+## Get lista de películas mas populares con el rol User
 
 ### Request
 
 `GET localhost:8080/api/popular`
 
-## Get lista de cosas con el rol Admin
+## Get películas con el rol Admin
 
 ### Request
 
